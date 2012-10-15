@@ -1,0 +1,833 @@
+.lib.x86/bind.x86.o: src/bind.c include/config.h /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/sys/file.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ /usr/include/alloca.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ include/posixstat.h /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ include/rldefs.h include/config.h include/rlstdc.h /usr/include/string.h \
+ /usr/include/xlocale.h include/rlconf.h include/readline.h \
+ include/rltypedefs.h include/keymaps.h include/chardefs.h \
+ /usr/include/ctype.h /usr/include/strings.h include/tilde.h \
+ include/history.h include/rlprivate.h include/posixjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h include/rlshell.h \
+ include/xmalloc.h
+.lib.x86/callback.x86.o: src/callback.c include/config.h include/rlconf.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/stdlib.h /usr/include/alloca.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/rldefs.h include/config.h include/rlstdc.h /usr/include/string.h \
+ /usr/include/xlocale.h include/rlconf.h include/readline.h \
+ include/rltypedefs.h include/keymaps.h include/chardefs.h \
+ /usr/include/ctype.h /usr/include/strings.h include/tilde.h \
+ include/rlprivate.h include/posixjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h include/xmalloc.h
+.lib.x86/compat.x86.o: src/compat.c include/config.h /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/rlstdc.h include/rltypedefs.h
+.lib.x86/complete.x86.o: src/complete.c include/config.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/sys/file.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/pwd.h include/posixdir.h /usr/include/dirent.h \
+ /usr/include/bits/dirent.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ include/posixstat.h /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ include/rldefs.h include/config.h include/rlstdc.h /usr/include/string.h \
+ /usr/include/xlocale.h include/rlconf.h include/rlmbutil.h \
+ /usr/include/bits/wchar.h /usr/include/wctype.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix2_lim.h include/readline.h \
+ include/rltypedefs.h include/keymaps.h include/chardefs.h \
+ /usr/include/ctype.h /usr/include/strings.h include/tilde.h \
+ include/xmalloc.h include/rlprivate.h include/posixjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h
+.lib.x86/display.x86.o: src/display.c include/config.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h include/posixstat.h \
+ /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/stdlib.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/rldefs.h include/config.h include/rlstdc.h /usr/include/string.h \
+ /usr/include/xlocale.h include/rlconf.h include/rlmbutil.h \
+ /usr/include/bits/wchar.h /usr/include/wctype.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h include/tcap.h include/rltty.h \
+ /usr/include/termios.h /usr/include/bits/termios.h \
+ /usr/include/sys/ttydefaults.h include/rlwinsize.h \
+ /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
+ /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h \
+ /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h \
+ /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
+ /usr/include/termcap.h /usr/include/ncurses_dll.h include/readline.h \
+ include/rltypedefs.h include/keymaps.h include/chardefs.h \
+ /usr/include/ctype.h /usr/include/strings.h include/tilde.h \
+ include/history.h include/rlprivate.h include/posixjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h include/xmalloc.h
+.lib.x86/emacs_keymap.x86.o: src/emacs_keymap.c /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/readline.h /usr/include/readline/rlstdc.h \
+ /usr/include/readline/rltypedefs.h /usr/include/readline/keymaps.h \
+ /usr/include/readline/chardefs.h /usr/include/ctype.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/xlocale.h \
+ /usr/include/string.h /usr/include/readline/tilde.h
+.lib.x86/funmap.x86.o: src/funmap.c include/config.h /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h include/rlconf.h \
+ include/readline.h include/rlstdc.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/ctype.h \
+ /usr/include/xlocale.h /usr/include/string.h /usr/include/strings.h \
+ include/tilde.h include/xmalloc.h
+.lib.x86/histexpand.x86.o: src/histexpand.c include/config.h \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h include/rlmbutil.h \
+ include/rlstdc.h /usr/include/bits/wchar.h /usr/include/xlocale.h \
+ /usr/include/wctype.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h include/history.h include/rltypedefs.h \
+ include/histlib.h /usr/include/string.h include/rlshell.h \
+ include/xmalloc.h
+.lib.x86/histfile.x86.o: src/histfile.c include/config.h \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/sys/file.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ include/posixstat.h /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ /usr/include/stdlib.h /usr/include/alloca.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/ctype.h /usr/include/xlocale.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ include/history.h include/rlstdc.h include/rltypedefs.h \
+ include/histlib.h /usr/include/string.h include/rlshell.h \
+ include/xmalloc.h
+.lib.x86/history.x86.o: src/history.c include/config.h \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h include/history.h \
+ /usr/include/xlocale.h include/rlstdc.h include/rltypedefs.h \
+ include/histlib.h /usr/include/string.h include/xmalloc.h
+.lib.x86/histsearch.x86.o: src/histsearch.c include/config.h \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h include/history.h \
+ /usr/include/xlocale.h include/rlstdc.h include/rltypedefs.h \
+ include/histlib.h /usr/include/string.h
+.lib.x86/input.x86.o: src/input.c include/config.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/sys/file.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ /usr/include/alloca.h include/posixselect.h /usr/include/sys/time.h \
+ /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
+ /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h \
+ /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h \
+ /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
+ /usr/include/sys/ttydefaults.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ include/rldefs.h include/config.h include/rlstdc.h /usr/include/string.h \
+ /usr/include/xlocale.h include/rlconf.h include/rlmbutil.h \
+ /usr/include/bits/wchar.h /usr/include/wctype.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h include/readline.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/ctype.h \
+ /usr/include/strings.h include/tilde.h include/rlprivate.h \
+ include/posixjmp.h /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+ include/rlshell.h include/xmalloc.h
+.lib.x86/isearch.x86.o: src/isearch.c include/config.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ /usr/include/alloca.h include/rldefs.h include/config.h include/rlstdc.h \
+ /usr/include/string.h /usr/include/xlocale.h include/rlconf.h \
+ include/rlmbutil.h /usr/include/bits/wchar.h /usr/include/wctype.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h include/readline.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/ctype.h \
+ /usr/include/strings.h include/tilde.h include/history.h \
+ include/rlprivate.h include/posixjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h include/xmalloc.h
+.lib.x86/keymaps.x86.o: src/keymaps.c include/config.h \
+ /usr/include/stdlib.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/readline.h include/rlstdc.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/ctype.h \
+ /usr/include/xlocale.h /usr/include/string.h /usr/include/strings.h \
+ include/tilde.h include/rlconf.h src/emacs_keymap.c src/vi_keymap.c \
+ include/xmalloc.h
+.lib.x86/kill.x86.o: src/kill.c include/config.h /usr/include/sys/types.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/stdlib.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/rldefs.h include/config.h include/rlstdc.h /usr/include/string.h \
+ /usr/include/xlocale.h include/rlconf.h include/readline.h \
+ include/rltypedefs.h include/keymaps.h include/chardefs.h \
+ /usr/include/ctype.h /usr/include/strings.h include/tilde.h \
+ include/history.h include/rlprivate.h include/posixjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h include/xmalloc.h
+.lib.x86/macro.x86.o: src/macro.c include/config.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/rldefs.h include/config.h include/rlstdc.h /usr/include/string.h \
+ /usr/include/xlocale.h include/rlconf.h include/readline.h \
+ include/rltypedefs.h include/keymaps.h include/chardefs.h \
+ /usr/include/ctype.h /usr/include/strings.h include/tilde.h \
+ include/history.h include/rlprivate.h include/posixjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h include/xmalloc.h
+.lib.x86/mbutil.x86.o: src/mbutil.c include/config.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h include/posixjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/stdlib.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/ctype.h /usr/include/xlocale.h include/rldefs.h \
+ include/config.h include/rlstdc.h /usr/include/string.h include/rlconf.h \
+ include/rlmbutil.h /usr/include/bits/wchar.h /usr/include/wctype.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h include/readline.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/strings.h \
+ include/tilde.h include/rlprivate.h include/posixjmp.h include/xmalloc.h
+.lib.x86/misc.x86.o: src/misc.c include/config.h /usr/include/unistd.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/locale.h /usr/include/bits/locale.h \
+ /usr/include/xlocale.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/rldefs.h include/config.h include/rlstdc.h /usr/include/string.h \
+ include/rlconf.h include/rlmbutil.h /usr/include/bits/wchar.h \
+ /usr/include/wctype.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h include/readline.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/ctype.h \
+ /usr/include/strings.h include/tilde.h include/history.h \
+ include/rlprivate.h include/posixjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h include/rlshell.h include/xmalloc.h
+.lib.x86/nls.x86.o: src/nls.c include/config.h /usr/include/sys/types.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ /usr/include/alloca.h /usr/include/locale.h /usr/include/bits/locale.h \
+ /usr/include/xlocale.h /usr/include/ctype.h include/rldefs.h \
+ include/config.h include/rlstdc.h /usr/include/string.h include/rlconf.h \
+ include/readline.h include/rltypedefs.h include/keymaps.h \
+ include/chardefs.h /usr/include/strings.h include/tilde.h \
+ include/rlshell.h include/rlprivate.h include/posixjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h
+.lib.x86/parens.x86.o: src/parens.c include/rlconf.h include/config.h \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h include/posixselect.h \
+ /usr/include/sys/time.h /usr/include/string.h /usr/include/xlocale.h \
+ include/readline.h include/rlstdc.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/ctype.h \
+ /usr/include/strings.h include/tilde.h include/rlprivate.h \
+ include/rlconf.h include/posixjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h
+.lib.x86/readline.x86.o: src/readline.c include/config.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ include/posixstat.h /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/sys/file.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ /usr/include/alloca.h /usr/include/locale.h /usr/include/bits/locale.h \
+ /usr/include/xlocale.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/posixjmp.h /usr/include/setjmp.h /usr/include/bits/setjmp.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ include/rldefs.h include/config.h include/rlstdc.h /usr/include/string.h \
+ include/rlconf.h include/rlmbutil.h /usr/include/bits/wchar.h \
+ /usr/include/wctype.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h include/readline.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/ctype.h \
+ /usr/include/strings.h include/tilde.h include/history.h \
+ include/rlprivate.h include/posixjmp.h include/rlshell.h \
+ include/xmalloc.h
+.lib.x86/rltty.x86.o: src/rltty.c include/config.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/signal.h /usr/include/bits/signum.h \
+ /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
+ /usr/include/bits/sigthread.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h include/rldefs.h \
+ include/config.h include/rlstdc.h /usr/include/string.h \
+ /usr/include/xlocale.h include/rlconf.h /usr/include/sys/ioctl.h \
+ /usr/include/bits/ioctls.h /usr/include/asm/ioctls.h \
+ /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
+ /usr/include/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
+ /usr/include/bits/ioctl-types.h /usr/include/sys/ttydefaults.h \
+ include/rltty.h /usr/include/termios.h /usr/include/bits/termios.h \
+ include/rlwinsize.h include/readline.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/ctype.h \
+ /usr/include/strings.h include/tilde.h include/rlprivate.h \
+ include/posixjmp.h /usr/include/setjmp.h /usr/include/bits/setjmp.h
+.lib.x86/savestring.x86.o: src/savestring.c include/config.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/xlocale.h include/xmalloc.h include/rlstdc.h
+.lib.x86/search.x86.o: src/search.c include/config.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ /usr/include/alloca.h include/rldefs.h include/config.h include/rlstdc.h \
+ /usr/include/string.h /usr/include/xlocale.h include/rlconf.h \
+ include/rlmbutil.h /usr/include/bits/wchar.h /usr/include/wctype.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h include/readline.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/ctype.h \
+ /usr/include/strings.h include/tilde.h include/history.h \
+ include/rlprivate.h include/posixjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h include/xmalloc.h
+.lib.x86/shell.x86.o: src/shell.c include/config.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/pwd.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/rlstdc.h include/rlshell.h include/rlstdc.h include/xmalloc.h
+.lib.x86/signals.x86.o: src/signals.c include/config.h \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/signal.h /usr/include/bits/signum.h \
+ /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
+ /usr/include/bits/sigthread.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h include/rldefs.h include/config.h include/rlstdc.h \
+ /usr/include/string.h /usr/include/xlocale.h include/rlconf.h \
+ /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
+ /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h \
+ /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h \
+ /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
+ /usr/include/sys/ttydefaults.h include/readline.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/ctype.h \
+ /usr/include/strings.h include/tilde.h include/history.h \
+ include/rlprivate.h include/posixjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h
+.lib.x86/terminal.x86.o: src/terminal.c include/config.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ include/posixstat.h /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/sys/file.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ /usr/include/alloca.h /usr/include/locale.h /usr/include/bits/locale.h \
+ /usr/include/xlocale.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/rldefs.h include/config.h include/rlstdc.h /usr/include/string.h \
+ include/rlconf.h /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
+ /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h \
+ /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h \
+ /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
+ /usr/include/sys/ttydefaults.h include/rltty.h /usr/include/termios.h \
+ /usr/include/bits/termios.h include/rlwinsize.h include/tcap.h \
+ include/rltty.h /usr/include/termcap.h /usr/include/ncurses_dll.h \
+ include/readline.h include/rltypedefs.h include/keymaps.h \
+ include/chardefs.h /usr/include/ctype.h /usr/include/strings.h \
+ include/tilde.h include/history.h include/rlprivate.h include/posixjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h include/rlshell.h \
+ include/xmalloc.h
+.lib.x86/text.x86.o: src/text.c include/config.h /usr/include/unistd.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/locale.h /usr/include/bits/locale.h \
+ /usr/include/xlocale.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/rldefs.h include/config.h include/rlstdc.h /usr/include/string.h \
+ include/rlconf.h include/rlmbutil.h /usr/include/bits/wchar.h \
+ /usr/include/wctype.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h include/readline.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/ctype.h \
+ /usr/include/strings.h include/tilde.h include/history.h \
+ include/rlprivate.h include/posixjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h include/rlshell.h include/xmalloc.h
+.lib.x86/undo.x86.o: src/undo.c include/config.h /usr/include/sys/types.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/stdlib.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/rldefs.h include/config.h include/rlstdc.h /usr/include/string.h \
+ /usr/include/xlocale.h include/rlconf.h include/readline.h \
+ include/rltypedefs.h include/keymaps.h include/chardefs.h \
+ /usr/include/ctype.h /usr/include/strings.h include/tilde.h \
+ include/history.h include/rlprivate.h include/posixjmp.h \
+ /usr/include/setjmp.h /usr/include/bits/setjmp.h include/xmalloc.h
+.lib.x86/util.x86.o: src/util.c include/config.h /usr/include/sys/types.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h include/posixjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/stdlib.h /usr/include/alloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/ctype.h /usr/include/xlocale.h include/rldefs.h \
+ include/config.h include/rlstdc.h /usr/include/string.h include/rlconf.h \
+ include/rlmbutil.h /usr/include/bits/wchar.h /usr/include/wctype.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h include/readline.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/strings.h \
+ include/tilde.h include/rlprivate.h include/posixjmp.h include/xmalloc.h
+.lib.x86/vi_keymap.x86.o: src/vi_keymap.c /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/readline.h /usr/include/readline/rlstdc.h \
+ /usr/include/readline/rltypedefs.h /usr/include/readline/keymaps.h \
+ /usr/include/readline/chardefs.h /usr/include/ctype.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/xlocale.h \
+ /usr/include/string.h /usr/include/readline/tilde.h
+.lib.x86/vi_mode.x86.o: src/vi_mode.c include/rlconf.h include/config.h \
+ /usr/include/sys/types.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/stdlib.h /usr/include/alloca.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ include/rldefs.h include/config.h include/rlstdc.h /usr/include/string.h \
+ /usr/include/xlocale.h include/rlconf.h include/rlmbutil.h \
+ /usr/include/bits/wchar.h /usr/include/wctype.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h include/readline.h include/rltypedefs.h \
+ include/keymaps.h include/chardefs.h /usr/include/ctype.h \
+ /usr/include/strings.h include/tilde.h include/history.h \
+ include/rlprivate.h include/posixjmp.h /usr/include/setjmp.h \
+ /usr/include/bits/setjmp.h include/xmalloc.h
+.lib.x86/xfree.x86.o: src/xfree.c include/config.h /usr/include/stdlib.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h include/xmalloc.h include/rlstdc.h
+.lib.x86/xmalloc.x86.o: src/xmalloc.c include/config.h \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h include/xmalloc.h \
+ include/rlstdc.h
