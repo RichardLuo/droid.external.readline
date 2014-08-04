@@ -45,7 +45,7 @@ LOCAL_SRC_FILES := \
 
 LOCAL_MODULE := libreadline_droid
 
-LOCAL_C_INCLUDES += $(LOCAL_PATH)/include $(LOCAL_PATH)/../termcap-1.3.1/
+LOCAL_C_INCLUDES += $(LOCAL_PATH)/include $(LOCAL_PATH)/../termcap
 LOCAL_CFLAGS += -DHAVE_CONFIG_H -DREADLINE_CALLBACKS
 
 LOCAL_SHARED_LIBRARIES := libtermcap_droid
