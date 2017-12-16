@@ -6,9 +6,7 @@
 
 LOCAL_PATH:= $(call my-dir)
 
-include $(CLEAR_VARS)
-
-LOCAL_SRC_FILES := \
+common_LOCAL_SRC_FILES := \
 	src/bind.c \
 	src/callback.c \
 	src/compat.c \
@@ -43,23 +41,41 @@ LOCAL_SRC_FILES := \
 	src/xmalloc.c \
 	tilde.c
 
-LOCAL_MODULE := libreadline_droid
+common_LOCAL_MODULE := libreadline_droid
+common_LOCAL_SRC_FILES := $(common_LOCAL_SRC_FILES)
 
-LOCAL_C_INCLUDES += $(LOCAL_PATH)/include $(LOCAL_PATH)/../termcap
-LOCAL_CFLAGS += -DHAVE_CONFIG_H -DREADLINE_CALLBACKS
+common_LOCAL_C_INCLUDES := \
+	$(LOCAL_PATH)/include \
+	$(LOCAL_PATH)/../termcap
+
+common_LOCAL_CFLAGS := \
+	-DHAVE_CONFIG_H \
+	-DREADLINE_CALLBACKS
+
+include $(CLEAR_VARS)
+
+LOCAL_MODULE := $(common_LOCAL_MODULE)
+LOCAL_SRC_FILES := $(common_LOCAL_SRC_FILES)
+LOCAL_C_INCLUDES := $(common_LOCAL_C_INCLUDES)
+LOCAL_CFLAGS := $(common_LOCAL_CFLAGS)
 
 LOCAL_SHARED_LIBRARIES := libtermcap_droid
 
-# LOCAL_SHARED_LIBRARIES += libcutils
-# LOCAL_SHARED_LIBRARIES += libbinder
-# LOCAL_SHARED_LIBRARIES += libui
-
-
-LOCAL_PRELINK_MODULE := false
-
 LOCAL_MODULE_TAGS := eng
+LOCAL_PRELINK_MODULE := false
 
 include $(BUILD_SHARED_LIBRARY)
 
-# include $(BUILD_STATIC_LIBRARY)
-# include $(BUILD_EXECUTABLE)
+include $(CLEAR_VARS)
+
+LOCAL_MODULE := $(common_LOCAL_MODULE)
+LOCAL_SRC_FILES := $(common_LOCAL_SRC_FILES)
+LOCAL_C_INCLUDES := $(common_LOCAL_C_INCLUDES)
+LOCAL_CFLAGS := $(common_LOCAL_CFLAGS)
+
+LOCAL_STATIC_LIBRARIES := libtermcap_droid
+
+LOCAL_MODULE_TAGS := eng
+LOCAL_PRELINK_MODULE := false
+
+include $(BUILD_STATIC_LIBRARY)
